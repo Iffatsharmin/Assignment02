@@ -17,7 +17,55 @@ li a{
 }
 
 /* Shared Style */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.headline-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: Bold;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.content-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.font-gray{
+    color: rgb(0, 0, 0 50%);
+}
+
+.font-dark{
+    color: black;
+}
+
+.font-red{
+    color: #E95A08;
+}
+
 .margin{
     margin-right: 9.5rem;
     margin-left: 9.5rem;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .nav-link {
+        display: none;
+    }
+
+    .margin{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
 }
