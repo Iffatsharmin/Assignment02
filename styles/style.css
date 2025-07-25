@@ -1,0 +1,23 @@
+/* Nav bar styling */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    margin-right: 48px;
+    color: #252432;
+}
+
+/* Shared Style */
+.margin{
+    margin-right: 9.5rem;
+    margin-left: 9.5rem;
+}
