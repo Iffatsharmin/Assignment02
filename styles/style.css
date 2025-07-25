@@ -15,6 +15,11 @@ li a{
     margin-right: 48px;
     color: #252432;
 }
+/* Banner style */
+.banner{
+    display: flex
+    
+}
 
 /* Shared Style */
 
