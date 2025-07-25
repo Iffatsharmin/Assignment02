@@ -17,12 +17,24 @@ li a{
 }
 /* Banner style */
 .banner{
-    display: flex
-    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    align-items: center;
 }
-
+.banner-content{
+    height: 299px;
+    width: 570px;
+}
+.banner-content h3{
+    font-size: 65px;
+    margin-bottom: 0px;
+}
+.banner-content p{
+    font-size: 22px;
+}
 /* Shared Style */
-
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -45,7 +57,7 @@ li a{
 }
 
 .font-gray{
-    color: rgb(0, 0, 0 50%);
+    color: rgb(0, 0, 0, 0.5);
 }
 
 .font-dark{
@@ -69,8 +81,15 @@ li a{
     }
 
     .margin{
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        text-align: left;
     }
 
 }
