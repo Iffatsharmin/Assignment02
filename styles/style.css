@@ -4,13 +4,13 @@
     justify-content: space-between;
     align-items: center;
 }
-ul {
+.nav-menu {
     display: flex;
 }
-ul li{
+.nav-link{
     list-style: none;
 }
-li a{
+.nav-link a{
     text-decoration: none;
     margin-right: 48px;
     color: #252432;
@@ -80,6 +80,29 @@ li a{
     
     
 }
+/* Plant love section */
+.list-head{
+    font-size: 50px;
+}
+.list-item{
+    font-size: 22px;
+}
+.plant-lover-content{
+    text-align: left;
+    height: 521px;
+    width: 540px;
+}
+.plant-lover {
+    display: flex;
+    margin-top: 210px;
+    margin-bottom: 130px;
+    justify-content: space-between;
+}
+.plant-lover image{
+    height: 597px;
+    width: 540px;
+    
+}
 /* Shared Style */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
@@ -141,5 +164,12 @@ li a{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    }
+    .plant-lover{
+        flex-direction: column;
+    }
+    .plant-lover-content{
+        text-align: left;
+    }
 
 }
