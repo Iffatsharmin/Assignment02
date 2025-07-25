@@ -34,6 +34,52 @@ li a{
 .banner-content p{
     font-size: 22px;
 }
+
+/* plant section style */
+
+.title-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-subtitle h3{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.title-subtitle p{
+    font-size: 22px;
+    text-align: center;
+}
+.plant-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.card image{
+    width: 100%;
+    max-width: 270px;
+}
+.card h3{
+    margin-bottom: 0px;
+}
+.card button{
+    width: 100%;
+    max-width: 270px;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    padding: 12px;
+    
+    
+}
 /* Shared Style */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
@@ -91,5 +137,9 @@ li a{
     .banner-content{
         text-align: left;
     }
+    .plant-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 
 }
