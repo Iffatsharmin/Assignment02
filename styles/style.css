@@ -97,9 +97,6 @@
     display: flex;
     justify-content: space-between;
     margin-top: 210px;
-    margin-bottom: 130px;
-    margin-left: 150px;
-    margin-right: 150px;
 }  
 .plant-lover-image{
     width: 100%;
@@ -118,6 +115,22 @@
     margin-left: -150px;
 
 }
+/* latest deal section */
+.latest-deal-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 135px;
+}
+.latest-deal-section h3{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.latest-deal-section p{
+    font-size: 20px;
+    text-align: center;
+}
+
 /* join section style */
 .join-section{
     margin-top: 120px;
@@ -204,8 +217,8 @@
 }
 
 .margin{
-    margin-right: 9.5rem;
-    margin-left: 9.5rem;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
 /* Responsive */
@@ -251,5 +264,11 @@
     }
     .input-items button {
     width: 103px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer-icons{
+        display: flex;
     }
 }
